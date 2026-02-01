@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<d:devices xmlns:d="http://schemas.android.com/sdk/devices/8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <d:device>
+    <d:name>Newland NLS-MT93</d:name>
+    <d:id>newland_nls_mt93</d:id>
+    <d:manufacturer>Newland</d:manufacturer>
+    <d:meta/>
+    <d:hardware>
+      <d:screen>
+        <d:screen-size>normal</d:screen-size>
+        <d:diagonal-length>5.5</d:diagonal-length>
+        <d:pixel-density>xhdpi</d:pixel-density>
+        <d:screen-ratio>long</d:screen-ratio>
+        <d:dimensions>
+          <d:x-dimension>720</d:x-dimension>
+          <d:y-dimension>1440</d:y-dimension>
+        </d:dimensions>
+        <d:xdpi>293.0</d:xdpi>
+        <d:ydpi>293.0</d:ydpi>
+        <d:touch>
+          <d:multitouch>jazz-hands</d:multitouch>
+          <d:mechanism>finger</d:mechanism>
+          <d:screen-type>capacitive</d:screen-type>
+        </d:touch>
+      </d:screen>
+      <d:networking>
+Bluetooth
+Wifi
+NFC
+</d:networking>
+      <d:sensors>
+Accelerometer
+Compass
+GPS
+Gyroscope
+LightSensor
+ProximitySensor
+</d:sensors>
+      <d:mic>true</d:mic>
+      <d:camera>
+        <d:location>front</d:location>
+        <d:autofocus>false</d:autofocus>
+        <d:flash>false</d:flash>
+      </d:camera>
+      <d:camera>
+        <d:location>back</d:location>
+        <d:autofocus>true</d:autofocus>
+        <d:flash>true</d:flash>
+      </d:camera>
+      <d:keyboard>nokeys</d:keyboard>
+      <d:nav>nonav</d:nav>
+      <d:ram unit="GiB">4</d:ram>
+      <d:buttons>soft</d:buttons>
+      <d:internal-storage unit="GiB">64</d:internal-storage>
+      <d:removable-storage unit="GiB">256</d:removable-storage> <!-- MicroSD support -->
+      <d:cpu>Octa-core 2.2 GHz</d:cpu>
+      <d:gpu>Mali-G52</d:gpu> <!-- Approximate for MediaTek MT8781 -->
+      <d:abi>arm64-v8a</d:abi>
+      <d:abis>arm64-v8a</d:abis>
+      <d:abis>armeabi-v7a</d:abis>
+      <d:dock/>
+      <d:power-type>battery</d:power-type>
+    </d:hardware>
+    <d:software>
+      <d:api-level>33-</d:api-level> <!-- Android 13 and above -->
+      <d:live-wallpaper-support>true</d:live-wallpaper-support>
+      <d:bluetooth-profiles>
+A2DP
+AVRCP
+HFP
+HID
+OPP
+PAN
+PBAP
+</d:bluetooth-profiles>
+      <d:gl-version>3.0</d:gl-version>
+      <d:gl-extensions>
+GL_OES_EGL_image
+GL_OES_depth_texture
+GL_OES_packed_depth_stencil
+GL_OES_rgb8_rgba8
+GL_OES_texture_float
+GL_OES_vertex_half_float
+</d:gl-extensions> <!-- Simplified; real device supports OpenGL ES 3.0+ -->
+      <d:status-bar>true</d:status-bar>
+    </d:software>
+    <d:state default="true" name="Portrait">
+      <d:description>Portrait orientation</d:description>
+      <d:screen-orientation>port</d:screen-orientation>
+      <d:keyboard-state>keyssoft</d:keyboard-state>
+      <d:nav-state>navhidden</d:nav-state>
+    </d:state>
+    <d:state name="Landscape">
+      <d:description>Landscape orientation</d:description>
+      <d:screen-orientation>land</d:screen-orientation>
+      <d:keyboard-state>keyssoft</d:keyboard-state>
+      <d:nav-state>navhidden</d:nav-state>
+    </d:state>
+  </d:device>
+</d:devices>
